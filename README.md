@@ -1,5 +1,5 @@
 # FB_crawler
-### The project is to practice using python selenium crawler to automatically publish articles and attach pictures in Linux system. When disasters occur, the government often uses mobile phone text messages to warn the public, but as usage habits change, social media is also one of the tools for notifications. It is hoped that in the future it can be used as one of the warning means for the prevention of natural disasters, such as earthquakes, landslides, tsunamis, etc. It should be noted that social software such as Facebook often has security protools to prevent crawlers, so it is still necessary to crawl in social media for justifiable purpose and motivation.
+### The project is to practice using python selenium crawler to automatically publish articles and attach pictures to Facebook communities (2023 web version) in Linux system. When disasters occur, the government often uses mobile phone text messages to warn the public, but as usage habits change, social media is also one of the tools for notifications. It is hoped that in the future it can be used as one of the warning means for the prevention of natural disasters, such as earthquakes, landslides, tsunamis, etc. It should be noted that social software such as Facebook often has security protools to prevent crawlers, so it is still necessary to crawl in social media for justifiable purpose and motivation.
 
 # Installation
 * Install selenium module
@@ -24,3 +24,5 @@ $ chromedriver --version
 ```
 $ python fb_crawler.py
 ```
+# Result
+![Image](https://github.com/paui0615/FB_crawler/assets/125962545/65b063b2-f211-412b-8457-81edba2787dc)
