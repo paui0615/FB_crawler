@@ -20,10 +20,10 @@ def Initialize_Chrome():
 
 # Setting username, password and image path
 url = 'https://www.facebook.com'
-username = "0952983135"
-password = "paui06151226"
-image = "/home/paui0615/Github/FB_crawler/DYSB_HV_spec.png"
-
+username = "username"
+password = "password"
+image = "image path"
+fb_group = ""fb group url
 
 Initialize_Chrome()
 driver = webdriver.Chrome(options= options)
@@ -41,7 +41,7 @@ time.sleep(5)
 
 
 # Click on the post area
-driver.get('https://www.facebook.com/groups/6873393272716214')
+driver.get('fb_group')
 element = driver.find_element(By.XPATH, "//div[@class='xi81zsa x1lkfr7t xkjl1po x1mzt3pk xh8yej3 x13faqbe']")
 time.sleep(3)
 
